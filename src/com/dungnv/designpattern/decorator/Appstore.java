@@ -8,7 +8,7 @@ public class Appstore {
 		final WatchAppDecorator watchApp = new WatchAppDecorator(new IOSApp());
 		
 		final GGAppDecorator ggApp = new GGAppDecorator(new AndroidApp());
-		
+		final AndroidTVDecorator atv= new AndroidTVDecorator(new AndroidApp());
 		tvApp.developApp();
 		
 		System.out.println("------");
@@ -16,6 +16,9 @@ public class Appstore {
 		
 		System.out.println("------");
 		ggApp.developApp();
+		
+		System.out.println("-----");
+		atv.developApp();
 	}
 
 }
