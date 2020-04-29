@@ -10,7 +10,6 @@ public class ThrottlingMiddleware extends MiddleWare {
 		this.currentTime = System.currentTimeMillis();
 	}
 	
-	@SuppressWarnings("deprecation")
 	@Override
 	public boolean check(String email, String password) {
 		
