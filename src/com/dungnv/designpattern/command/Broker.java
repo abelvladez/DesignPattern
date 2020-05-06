@@ -1,9 +1,7 @@
-package com.dungnv.designpattern.chain;
+package com.dungnv.designpattern.command;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import com.dungnv.designpattern.command.Order;
 
 public class Broker {
 	private List<Order> orderList = new ArrayList<Order>();
