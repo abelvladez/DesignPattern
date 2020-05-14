@@ -9,8 +9,8 @@ public class Demo {
 		obj.addNumber(3);
 		
 		
-		SumCalculator cal1 = new SumCalculator(obj);
-		SumCalculator cal2 = new SumCalculator(obj);
+		new SumCalculator(obj);
+		new SumCalculator(obj);
 		
 		obj.addNumber(4);
 		obj.notifyAll2();
