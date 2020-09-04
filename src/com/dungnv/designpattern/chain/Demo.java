@@ -6,6 +6,11 @@ import java.io.InputStreamReader;
 
 public class Demo {
 
+	
+	/*
+	 * Chain of Responsibility
+	 * 
+	 * */
 	private static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 	private static Server server;
 	
