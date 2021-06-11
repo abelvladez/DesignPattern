@@ -1,1 +1,1 @@
-This is project that will be collaborated between Abelegreen and Dungnv.ctv
+This is a project about Java design pattern. It's collaborated by Abelegreen and dungnv.ctv
